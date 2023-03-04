@@ -7,6 +7,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
+		changes done via developer 1
                 echo '<--------------- Building started --------------->'
                 sh 'printenv'
                 sh 'mvn clean install'
